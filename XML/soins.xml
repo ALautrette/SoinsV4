@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--  <!DOCTYPE employes SYSTEM "soins.dtd">  -->
+<root>
+  <dossiers>
+    <dossier>
+      <nom>Robert</nom>
+      <prenom>Jean</prenom>
+      <datenaissance>
+        <yyyy>1980</yyyy>
+        <mm>12</mm>
+        <dd>3</dd>
+      </datenaissance>
+      <dossierprestations>
+        <prestation idprestation= "1" />
+        <prestation idprestation= "3" />
+        <prestation idprestation= "15"/>
+        <prestation idprestation= "17"/>
+      </dossierprestations>
+    </dossier>
+    <dossier>
+      <nom>Blanc</nom>
+      <prenom>Sophie</prenom>
+      <datenaissance>
+        <yyyy>1995</yyyy>
+        <mm>9</mm>
+        <dd>14</dd>
+      </datenaissance>
+    </dossier>
+  </dossiers>
+
+  <prestations>
+    <prestation idprestation="1" idintervenant="1">
+      <libelle>Libelle Prestation 1</libelle>
+      <dateprestation>
+        <yyyy>2015</yyyy>
+        <mm>9</mm>
+        <dd>10</dd>
+        <hh>12</hh>
+        <mi>15</mi>
+      </dateprestation>
+    </prestation>
+    <prestation idprestation="3" idintervenant="2">
+      <libelle>Libelle Prestation 3</libelle>
+      <dateprestation>
+        <yyyy>2015</yyyy>
+        <mm>9</mm>
+        <dd>1</dd>
+        <hh>14</hh>
+        <mi>00</mi>
+      </dateprestation>
+    </prestation>
+    <prestation idprestation="15" idintervenant="3">
+      <libelle>Libelle Prestation 15</libelle>
+      <dateprestation>
+        <yyyy>2015</yyyy>
+        <mm>9</mm>
+        <dd>1</dd>
+        <hh>16</hh>
+        <mi>00</mi>
+      </dateprestation>
+
+    </prestation>
+    <prestation idprestation="17" idintervenant="3">
+      <libelle>Libelle Prestation 17</libelle>
+      <dateprestation>
+        <yyyy>2015</yyyy>
+        <mm>9</mm>
+        <dd>1</dd>
+        <hh>18</hh>
+        <mi>00</mi>
+      </dateprestation>
+    </prestation>
+  </prestations>
+  <intervenants>
+    <intervenant idintervenant="1">
+      <nomintervenant>Dr Intervun</nomintervenant>
+      <prenomintervenant>Jean</prenomintervenant>
+    </intervenant>
+    <intervenant idintervenant="2">
+      <nomintervenant>Dr Intervdeux</nomintervenant>
+      <prenomintervenant>Martine</prenomintervenant>
+      <specialite>cardiologue</specialite>
+      <adresse>Boulevard de Starsbourg 83000 Toulon</adresse>
+      <tel>04 94 94 94 94</tel>
+    </intervenant>
+    <intervenant idintervenant="3">
+      <nomintervenant>Dr Intervtrois</nomintervenant>
+      <prenomintervenant>Michel</prenomintervenant>
+      <specialite>radiologue</specialite>
+      <adresse>Avenue de la république 83000 Toulon</adresse>
+      <tel>04 94 90 90 90</tel>
+    </intervenant>
+  </intervenants>
+</root>
